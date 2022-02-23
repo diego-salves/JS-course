@@ -1,0 +1,4 @@
+.toString
+.toFixed
+
+lib Math
