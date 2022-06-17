@@ -1,4 +1,33 @@
-body{
+ /* Css Geral*/
+
+ /* CSS pode ser atribuído por:
+    * - ID
+    * - Class   
+    * - Tag
+*/
+
+/*SELETOR {
+    propriedade: valor;
+}*/
+
+/* TAG */
+
+body {
     background-color: beige;
     color: black;
+}
+
+
+/* Class = maior na hierarquia que a tag */
+
+.green {
+    color: green;
+    font-size: 20px;
+}
+
+/* ID = maior que todos na hierarquia, id sempre único(obviamente)*/
+
+#h1 {
+    text-decoration: underline;
+    text-align: center;
 }
