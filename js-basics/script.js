@@ -16,3 +16,8 @@ function mudar_texto() {
         h1[0].innerText = "Javascript Basics"
     }
 }
+
+function increment() {
+    var num = document.getElementById("p1");
+    num.innerText = parseInt(num.innerText) + 1;
+}
