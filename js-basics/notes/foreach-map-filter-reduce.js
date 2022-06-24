@@ -57,3 +57,15 @@ var result = values.map(dobrar).map(somar_4).map(dividir_por_5);
 console.log(result);
 
 //diferença do foreach é que o map retorna um novo array
+
+//FILTER
+
+//cria novo array contendo apenas os valores filtrados
+
+var numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+function filtrar_pares(n){
+    return n % 2 === 0;
+}
+
+filtrar_pares(numeros);
