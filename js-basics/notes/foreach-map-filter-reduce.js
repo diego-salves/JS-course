@@ -87,3 +87,20 @@ ret = numeros.filter(filtrar_multiplos_de5);
 console.log(ret);
 
 //se for true cria um novo array com os valores filtrados
+
+var students = [
+    {name: 'João', grade: 7},
+    {name: 'Maria', grade: 9},
+    {name: 'José', grade: 10},
+    {name: 'Pedro', grade: 8},
+    {name: 'Ana', grade: 5},
+]
+
+function filter_students(student){
+    return student.grade >= 8;
+}
+
+console.log(students.filter(filter_students));
+
+//Reduce
+
