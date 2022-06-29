@@ -104,3 +104,59 @@ console.log(students.filter(filter_students));
 
 //Reduce
 
+var prices = [4.99, 5.99, 3.99, 2.00, 1.99];
+
+var soma = 0
+for (var i = 0; i < prices.length; i++){
+    soma += prices[i];
+}
+
+console.log(soma);
+
+sum = 0;
+
+prices.forEach(element => {
+    sum += element;
+});
+
+console.log(sum);
+sum = 0;
+
+prices.forEach(function(element){
+    sum += element;
+});
+
+console.log(sum);
+
+
+function somar(anterior, atual){
+    return anterior + atual;
+}
+
+var ret = prices.reduce(somar);
+console.log(ret);
+
+// O reduce é um método que recebe um array e um callback que é uma função que recebe dois parâmetros, o valor anterior e o valor atual e retorna um único valor.
+
+//normalmente usado em conjunto com o map 
+
+function adicionar_taxa(valor){
+    return valor + 5;
+}
+
+var ret = prices.map(adicionar_taxa);
+
+var ret = prices.map(adicionar_taxa).reduce(somar);
+
+prices.map(adicionar_taxa).forEach(function(element){return soma += element});
+
+console.log(soma);
+
+function price_higher_than_4(price){
+    return price > 4;
+};
+
+var ret = prices.filter(price_higher_than_4).map(adicionar_taxa).reduce(somar);
+
+console.log(ret);
+
