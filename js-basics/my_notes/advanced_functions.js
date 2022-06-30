@@ -20,3 +20,6 @@ let valores = [1, 3.4, true, somar]
 for(let i = 0; i < valores.length; i++) {
     console.log(typeof(valores[i]));
 }
+
+//se passar multiplos parametros, separados por virgula, a funçao tenta executar com os existentes, se tiver menos que o necessário retorna NaN
+
