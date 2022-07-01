@@ -46,3 +46,5 @@ console.log(felicity.getIdade());
 
 console.log(typeof(Pessoa)); // Function
 console.log(typeof(felicity)); // object
+
+//Não recomendo usar o new para instanciar um objeto, pois o new é um operador e não uma função, melhor usar classes!
