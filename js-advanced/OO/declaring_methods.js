@@ -1,3 +1,5 @@
+//método não passa de uma função, ps: nunca usar a palavra function
+
 class Pessoa {
     constructor(nome, sobrenome){
         this._nome = nome;
