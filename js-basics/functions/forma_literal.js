@@ -10,3 +10,4 @@ function somar(n1, n2){
 // let somar = function(v1, v2){
 //     return v1+ v2;
 // }
+//um tipo de hoisting para funções, joga todas para cima do código

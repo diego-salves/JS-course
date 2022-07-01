@@ -35,5 +35,5 @@ console.log(executa()); // local
 
  Linguagem de Progração chamada Clojure
 
- 
+
 */
