@@ -11,3 +11,6 @@ class Carro {
         this.modelo = modelo;
     }
 }
+
+//encapsulamento em JS, tudo é public!
+
