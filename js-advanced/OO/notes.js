@@ -3,5 +3,3 @@
 //Classes modelam o sistema
 
 //elenca-se entidades (análise de requisitos)
-
-//
