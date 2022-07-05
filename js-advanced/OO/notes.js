@@ -4,3 +4,4 @@
 
 //elenca-se entidades (análise de requisitos)
 
+//
