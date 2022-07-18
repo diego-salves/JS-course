@@ -7,4 +7,4 @@ class Carro {
 }
 
 //classe começa sempre com letra maiuscula
-//cria um modelo de dado
+//cria um modelo de dados
