@@ -12,5 +12,5 @@ class Carro {
     }
 }
 
-//encapsulamento em JS, tudo é public!
+//encapsulamento em JS, tudo é publico!
 
