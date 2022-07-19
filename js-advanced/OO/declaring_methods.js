@@ -58,3 +58,4 @@ class Carro {
     }
 }
 
+//getters devolvem o valor de um atributo, setters colocam valores nos atributos
